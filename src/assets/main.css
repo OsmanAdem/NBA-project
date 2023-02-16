@@ -1,0 +1,24 @@
+.games {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.games2 {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.NBAGames {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}

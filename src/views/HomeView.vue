@@ -6,8 +6,10 @@
     <NBAImage id="NBAImage" />
     <div class="input">
         <h2 class="text">Write to see teams:</h2>
-        <input class="input-text" placeholder="Text" v-model="search" />
-        <button class="btn" @click="fetchData">Press</button>
+        <div>
+            <input class="input-text" placeholder="Text" v-model="search" />
+            <button class="btn" @click="fetchData">Press</button>
+        </div>
         <ul>
             <li v-for="team in teams" :key="team">
                 {{ team.full_name }}
