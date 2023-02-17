@@ -1,6 +1,7 @@
 <script></script>
 <template>
     <div>
-        <img src="../assets/img/NBAGame.jpg" class="games" alt="NBA" />
+        <!-- NBA picture in HomeView -->
+        <img src="../assets/img/NBAGame.jpg" class="games" alt="NBAImg" />
     </div>
 </template>

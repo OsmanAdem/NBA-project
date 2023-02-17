@@ -1,3 +1,4 @@
+<!-- Second page -->
 <script setup>
     import NBAImage2 from '../components/NBAImage2.vue'
     import NBAGames from '../components/NBAGames.vue'
@@ -8,6 +9,7 @@
 </template>
 
 <style scoped>
+    /* Picture adjustments */
     #NBAImage2 {
         display: flex;
         height: 700px;

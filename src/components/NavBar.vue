@@ -2,6 +2,7 @@
     import { RouterLink, RouterView } from 'vue-router'
 </script>
 <template>
+    <!-- NavBar with RouterLink and RouterView -->
     <nav class="navbar bg-body-tertiary fixed-top">
         <div class="container-fluid">
             <RouterLink class="navbar-brand" to="/">NBA</RouterLink>
@@ -54,6 +55,7 @@
     <RouterView />
 </template>
 <style scoped>
+    /* NavBar adjustments */
     .offcanvas-title {
         color: black;
     }

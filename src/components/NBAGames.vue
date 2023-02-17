@@ -1,4 +1,5 @@
 <template>
+    <!-- Props -->
     <div class="NBAGames">
         <h1>Welcome to the {{ league }}!</h1>
     </div>

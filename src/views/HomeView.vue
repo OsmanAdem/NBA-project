@@ -1,3 +1,4 @@
+<!-- First page -->
 <script setup>
     import NBAImage from '../components/NBAImage.vue'
 </script>
@@ -11,6 +12,7 @@
             <button class="btn" @click="fetchData">Press</button>
         </div>
         <ul>
+            <!-- v-for and v-if -->
             <li v-for="team in teams" :key="team">
                 {{ team.full_name }}
                 <div v-if="team.full_name">NBA Team</div>
@@ -28,6 +30,7 @@
             }
         },
         methods: {
+            /* GET request with fetch */
             async fetchData() {
                 const res = await fetch(
                     `https://www.balldontlie.io/api/v1/teams?=${this.search}`
@@ -41,6 +44,7 @@
 </script>
 
 <style scoped>
+    /* Picture adjustments */
     #NBAImage {
         display: flex;
         height: 650px;
